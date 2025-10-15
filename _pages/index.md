@@ -16,16 +16,8 @@ Hi! I am **Pankaj Yadav**, a PhD researcher working on **probabilistic modeling 
 
 ---
 
-## Selected Projects / Work
+(images/healthcare.png)
 
-### Healthcare Data Analysis
-![Healthcare](images/healthcare.png)
-
-### Sports Science & Mobility
-![Sports](images/sports.png)
-
-### AI-based Data Generation
-![AI](images/ai.png)
 
 ---
 
