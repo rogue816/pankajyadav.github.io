@@ -1,83 +1,216 @@
-# ================================
-# BASIC SITE SETTINGS
-# ================================
-locale                   : "en-US"
-site_theme               : "default"
-title                    : "Pankaj Yadav | Data Generation & Probabilistic AI Research"
-title_separator          : "-"
-name                     : &name "Pankaj Yadav"
-description              : &description "PhD researcher working on probabilistic modeling and AI-based data generation. My work bridges statistical inference and deep generative models to improve data efficiency, interpretability, and robustness in healthcare, solar, finance, and sports science data."
-url                      : "https://pankajyadav.github.io"
-baseurl                  : ""
-repository               : "pankajyadav/pankajyadav.github.io"
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
-# ================================
-# AUTHOR DETAILS (SIDEBAR)
-# ================================
+# Basic Site Settings
+locale: "en-US"
+site_theme: "default"       # "default" or "air"
+title: "Pankaj Yadav | Probabilistic AI Research"
+title_separator: "-"
+name: &name "Pankaj Yadav"
+description: &description "PhD researcher in probabilistic modeling and AI-based data generation. My work explores generative approaches and uncertainty-aware learning for improving data efficiency and model robustness."
+url: "https://rogue816.github.io/pankajyadav.github.io"  # Your GitHub Pages URL
+baseurl: ""
+repository: "rogue816/pankajyadav.github.io"
+
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar           : "profile.png"   # Upload your photo in /images/ as profile.png
-  name             : "Pankaj Yadav"
-  pronouns         : "he/him"
-  bio              : "PhD researcher working on probabilistic modeling and AI-based data generation. My work spans healthcare, solar energy, finance, and sports science—focusing on interpretable and efficient generative models."
-  location         : "India"
-  employer         : "PhD Researcher"
-  uri              : "https://pankajyadav.github.io"
-  email            : "yadav.58@iitj.ac.in"
+  # Biographic information
+  avatar: "images/profile.png"       # Upload your photo to the images/ folder
+  name: "Pankaj Yadav"
+  pronouns: "he/him"
+  bio: "PhD researcher working on probabilistic modeling and AI-based data generation. My work spans healthcare, solar, finance, sports science, and patient mobility data, focusing on data efficiency, interpretability, and robustness."
+  location: "India"
+  employer: "PhD Researcher"
+  uri: "https://rogue816.github.io/pankajyadav.github.io"  # your website URL
+  email: "yadav.58@iitj.ac.in"  # optional if you want to display email
 
-  # Academic Profiles
-  googlescholar    : "https://scholar.google.co.in/citations?hl=en&user=ejZNgHgAAAAJ"
-  orcid            : "https://orcid.org/0009-0009-1437-5659?lang=en"
-  github           : "pankajyadav"
-  linkedin         : "https://www.linkedin.com/in/pankaj-yadav-867a40200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
 
-# ================================
-# PUBLICATION CATEGORIES
-# ================================
+# Academic websites
+academia: 
+arxiv: 
+googlescholar: "https://scholar.google.co.in/citations?hl=en&user=ejZNgHgAAAAJ"
+inspire-hep: 
+impactstory: 
+orcid: "https://orcid.org/0009-0009-1437-5659?lang=en"
+semantic: 
+pubmed: 
+researchgate: 
+scopus: 
+
+# Repositories and software development
+bitbucket: 
+codepen: 
+dribbble: 
+github: "pankajyadav"
+kaggle: 
+stackoverflow: 
+
+# Social media
+artstation: 
+bluesky: 
+facebook: 
+flickr: 
+foursquare: 
+goodreads: 
+google_plus: 
+keybase: 
+instagram: 
+lastfm: 
+linkedin: "https://www.linkedin.com/in/pankaj-yadav-867a40200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+mastodon: 
+medium: 
+pinterest: 
+soundcloud: 
+steam: 
+telegram: 
+tumblr: 
+twitter: 
+vine: 
+weibo: 
+wikipedia: 
+xing: 
+youtube: 
+zhihu: 
+
+
+# Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'
+    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
 
-# ================================
-# SITE SETTINGS
-# ================================
-teaser                   :
-breadcrumbs              : false
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled"
-talkmap_link             : false
+# Site Settings
+teaser: "images/profile.png"  # fallback teaser image for social media previews
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
+
+# Comments (disabled for now)
 comments:
-  provider               : false
+  provider: false
+staticman:
+  allowedFields: ['name', 'email', 'url', 'message']
+  branch: "gh-pages"
+  commitMessage: "New comment."
+  filename: comment-{@timestamp}
+  format: "yml"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ['name', 'email', 'message']
+  transforms:
+    email: "md5"
+  generatedFields:
+    date:
+      type: "date"
+      options:
+        format: "iso8601"
 
 atom_feed:
-  hide                   : false
-  path                   : 
+  hide: false
+  path: ""
 
-# ================================
-# SEO & SOCIAL
-# ================================
+# SEO Related
+google_site_verification: ""
+bing_site_verification: ""
+alexa_site_verification: ""
+yandex_site_verification: ""
+
+# Social Sharing
+twitter:
+  username: ""
+facebook:
+  username: ""
+  app_id: ""
+  publisher: ""
+og_image: "images/profile.png"  # default image for social sharing
+og_description: "PhD researcher in probabilistic modeling and AI-based data generation."
+
 social:
-  type                   : "Person"
-  name                   : "Pankaj Yadav"
-  links:
-    - "https://scholar.google.com/"
-    - "https://linkedin.com/in/pankajyadav"
+  type: "Person"
+  name: "Pankaj Yadav"
+  links: 
+    - "https://scholar.google.co.in/citations?hl=en&user=ejZNgHgAAAAJ"
+    - "https://orcid.org/0009-0009-1437-5659?lang=en"
+    - "https://www.linkedin.com/in/pankaj-yadav-867a40200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     - "https://github.com/pankajyadav"
-    - "https://orcid.org/"
 
-# ================================
-# ANALYTICS (OPTIONAL)
-# ================================
+# Analytics
 analytics:
-  provider               : false
+  provider: false
+  google:
+    tracking_id: ""
 
-# ================================
-# COLLECTIONS
-# ================================
+# Include & Exclude Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+
+keep_files:
+  - .git
+  - .svn
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
 collections:
   teaching:
     output: true
@@ -92,37 +225,92 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# ================================
-# MARKDOWN SETTINGS
-# ================================
-markdown: kramdown
-highlighter: rouge
-encoding: "utf-8"
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  entity_output: as_char
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
-# ================================
-# OUTPUT SETTINGS
-# ================================
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Output
 permalink: /:categories/:title/
-timezone: Asia/Kolkata
+timezone: Etc/UTC
 
-# ================================
-# PLUGINS
-# ================================
+# Plugins
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
-  - jemoji
+  - jekyll-gist
   - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-redirect-from
+  - jemoji
 
-# ================================
-# COMPRESS HTML
-# ================================
+# Whitelist
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
 compress_html:
   clippings: all
   ignore:
