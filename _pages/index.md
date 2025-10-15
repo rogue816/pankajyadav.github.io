@@ -5,12 +5,19 @@ permalink: /
 ---
 
 <!-- Hero Section -->
-<div style="position: relative; width: 100%; height: 50vh; background-image: url('images/healthcare.png'); background-size: cover; background-position: center;">
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; background-color: rgba(0,0,0,0.4); padding: 20px; border-radius: 10px;">
+<div style="position: relative; width: 100%; height: 50vh; 
+            background-image: url('images/healthcare.png'); 
+            background-size: contain; 
+            background-position: top center; 
+            background-repeat: no-repeat;">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+              color: white; text-align: center; background-color: rgba(0,0,0,0.4); 
+              padding: 20px; border-radius: 10px;">
     <h1>Pankaj Yadav</h1>
     <h3>Data Generation & Probabilistic AI Research</h3>
   </div>
 </div>
+
 
 ---
 
