@@ -1,10 +1,20 @@
 ---
 layout: home
 title: Pankaj Yadav
-subtitle: "Data Generation & Probabilistic AI Research"
 permalink: /
 ---
 
+<!-- Hero Section -->
+<div style="position: relative; width: 100%; height: 50vh; background-image: url('images/healthcare.png'); background-size: cover; background-position: center;">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; background-color: rgba(0,0,0,0.4); padding: 20px; border-radius: 10px;">
+    <h1>Pankaj Yadav</h1>
+    <h3>Data Generation & Probabilistic AI Research</h3>
+  </div>
+</div>
+
+---
+
+## About Me
 Hi! I am **Pankaj Yadav**, a PhD researcher working on **probabilistic modeling and AI-based data generation**. My work spans healthcare, solar, finance, sports science, and patient mobility data. I focus on improving **data efficiency, interpretability, and robustness** using statistical inference and deep generative models.
 
 ---
@@ -13,10 +23,6 @@ Hi! I am **Pankaj Yadav**, a PhD researcher working on **probabilistic modeling 
 - **Probabilistic Modeling & Statistical Inference**
 - **Deep Generative Models & AI-based Data Generation**
 - **Applications:** Healthcare, Finance, Sports Science, Patient Mobility, Solar Energy
-
----
-
-![Pankaj Yadav](images/healthcare.png){: style="width:150px; border-radius:50%; display:block; margin:auto;" }
 
 
 
@@ -36,4 +42,3 @@ Hi! I am **Pankaj Yadav**, a PhD researcher working on **probabilistic modeling 
 [LinkedIn](https://www.linkedin.com/in/pankaj-yadav-867a40200/) | 
 [GitHub](https://github.com/pankajyadav) | 
 [ORCID](https://orcid.org/0009-0009-1437-5659?lang=en)
-
