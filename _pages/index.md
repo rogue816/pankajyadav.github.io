@@ -16,7 +16,8 @@ Hi! I am **Pankaj Yadav**, a PhD researcher working on **probabilistic modeling 
 
 ---
 
-![Pankaj Yadav](images/healthcare.png)
+![Pankaj Yadav](images/healthcare.png){: style="width:150px; border-radius:50%; display:block; margin:auto;" }
+
 
 
 ---
