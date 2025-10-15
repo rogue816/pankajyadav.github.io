@@ -35,3 +35,12 @@ Hi! I am **Pankaj Yadav**, a PhD researcher working on **probabilistic modeling 
 - [Teaching](/teaching)  
 - [Portfolio](/portfolio)  
 - [CV](/cv)
+
+---
+
+## Connect with Me
+[Google Scholar](https://scholar.google.co.in/citations?hl=en&user=ejZNgHgAAAAJ) | 
+[LinkedIn](https://www.linkedin.com/in/pankaj-yadav-867a40200/) | 
+[GitHub](https://github.com/pankajyadav) | 
+[ORCID](https://orcid.org/0009-0009-1437-5659?lang=en)
+
