@@ -6,7 +6,7 @@ permalink: /
 
 <!-- Hero Section -->
 <div style="position: relative; width: 100%; height: 50vh; overflow: hidden;">
-  <img src="images/healthcare.png" alt="Pankaj Yadav"
+  <img src="images/pk.png" alt="Pankaj Yadav"
        style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
   <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
               color: white; text-align: center; background-color: rgba(0,0,0,0.4); 
