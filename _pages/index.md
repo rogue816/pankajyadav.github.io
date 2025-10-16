@@ -40,7 +40,7 @@ Each project I undertake has a unique story, from understanding complex healthca
 
 ### Healthcare Data Analysis – Patient Mobility & Predictive Modeling
 
-This project started during my master's when I was working on imbalanced datasets. I came in contact with my senior, **Kumar Shukla**, who was developing an instrumental chair called the **Jodhpur Instrumental Kursi (JIK)** to assess sarcopenia in older patients. He was collecting data from tests like **Time Up and Go (TUG), Short Physical Performance Battery (SPPB), and gait velocity**.  
+This project started during my master's when I was working on imbalanced datasets. I came in contact with my senior, **Brajesh Kumar Shukla**, who was developing an instrumental chair called the **Jodhpur Instrumental Kursi (JIK)** to assess sarcopenia in older patients. He was collecting data from tests like **Time Up and Go (TUG), Short Physical Performance Battery (SPPB), and gait velocity**.  
 
 I collaborated with him to analyze this data, applying my expertise in imbalanced datasets. Initially, we published some preliminary findings, but we couldn't fully implement the results at that time because we lacked the framework to converge machine learning outputs to actionable clinical insights.  
 
@@ -54,6 +54,7 @@ This framework allows sarcopenia data to be translated into real-world applicati
 
 This project beautifully illustrates how **data science and clinical needs can be combined** to create solutions that are both practical and research-driven.
 
+More Stories, I will share soon.......
 
 
 
