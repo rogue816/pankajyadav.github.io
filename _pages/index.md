@@ -38,11 +38,22 @@ I recently worked on several domain projects, including **healthcare, solar ener
 ### Selected Projects
 Each project I undertake has a unique story, from understanding complex healthcare patterns to generating realistic synthetic data for AI models. My work emphasizes translating **mathematical insights into actionable solutions** across diverse domains.  
 
-- **Healthcare Data Analysis** – Studying patient mobility and predictive modeling for better interventions.  
-- **Solar Energy Modeling** – Probabilistic estimation of energy outputs under variable conditions.  
-- **Finance & Risk Modeling** – Generative modeling for anomaly and fraud detection.  
-- **Sports Science & Mobility** – Modeling athlete performance and injury risk using advanced statistical techniques.  
-- **AI-based Data Generation** – Creating synthetic datasets that preserve real-world characteristics while enhancing data availability.  
+### Healthcare Data Analysis – Patient Mobility & Predictive Modeling
+
+This project started during my master's when I was working on imbalanced datasets. I came in contact with my senior, **Kumar Shukla**, who was developing an instrumental chair called the **Jodhpur Instrumental Kursi (JIK)** to assess sarcopenia in older patients. He was collecting data from tests like **Time Up and Go (TUG), Short Physical Performance Battery (SPPB), and gait velocity**.  
+
+I collaborated with him to analyze this data, applying my expertise in imbalanced datasets. Initially, we published some preliminary findings, but we couldn't fully implement the results at that time because we lacked the framework to converge machine learning outputs to actionable clinical insights.  
+
+During my PhD, I revisited this project with a deeper understanding and developed a **novel machine learning framework** that dynamically adjusts thresholds based on input and clinical priorities. We structured the results into three directions:  
+
+1. **Rural or Small Clinics:** Here, **recall** is prioritized over precision to ensure no potential sarcopenia case is missed, as missing a diagnosis could be dangerous for patients in resource-limited settings.  
+2. **Urban Multi-specialist Hospitals:** Here, **precision** is prioritized over recall to optimize the cost-effectiveness of diagnoses while still providing reliable care.  
+3. **Research and Development:** Here, **precision and recall are balanced** to study and understand the performance of the framework without immediate clinical application.  
+
+This framework allows sarcopenia data to be translated into real-world applications, tailored to different clinical settings, while remaining fully machine learning–driven. The work was successfully implemented, and we have published an article presenting this novel approach.  
+
+This project beautifully illustrates how **data science and clinical needs can be combined** to create solutions that are both practical and research-driven.
+
 
 
 
