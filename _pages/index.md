@@ -5,16 +5,12 @@ permalink: /
 ---
 
 <!-- Hero Section -->
-<div style="position: relative; width: 100%; height: 50vh; overflow: hidden;">
-  <img src="images/pk.PNG" alt="Pankaj Yadav"
-       style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-              color: white; text-align: center; background-color: rgba(0,0,0,0.4); 
-              padding: 20px; border-radius: 10px; max-width: 80%;">
-    <h1 style="margin: 0; font-size: 3rem;">Pankaj Yadav</h1>
-    <h3 style="margin: 0; font-size: 1.5rem;">Data Generation & Probabilistic AI Research</h3>
-  </div>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+  <img src="images/healthcare.png" alt="Photo 1" style="flex: 1; max-width: 300px; height: auto; object-fit: cover;">
+  <img src="images/pk.PNG" alt="Photo 2" style="flex: 1; max-width: 300px; height: auto; object-fit: cover;">
+  
 </div>
+
 
 
 ---
