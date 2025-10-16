@@ -14,16 +14,36 @@ permalink: /
 
 
 ---
+Hi! I am **Pankaj Yadav**, a PhD researcher working broadly on **probabilistic modeling and AI-based data generation**. My work spans modeling data generation algorithms through critical mathematical bottlenecks. I am passionate about developing and implementing interdisciplinary ideas that connect mathematics to computation and real-world problems.  
 
-## About Me
-Hi! I am **Pankaj Yadav**, a PhD researcher working on **probabilistic modeling and AI-based data generation**. My work spans healthcare, solar, finance, sports science, and patient mobility data. I focus on improving **data efficiency, interpretability, and robustness** using statistical inference and deep generative models.
+I recently worked on several domain projects, including **healthcare, solar energy, finance, sports science, and patient mobility data**. My focus is on improving **data efficiency, interpretability, and robustness** using statistical inference and deep generative models.
 
----
+### Academic Background
+- **PhD in Mathematics**, Indian Institute of Technology (IIT) Jodhpur, Mathematics Department  
+- **M.Sc. in Mathematics**, IIT Jodhpur  
+- **B.Sc. (Hons) in Mathematics**, University of Delhi  
 
-## Research Areas
-- **Probabilistic Modeling & Statistical Inference**
-- **Deep Generative Models & AI-based Data Generation**
-- **Applications:** Healthcare, Finance, Sports Science, Patient Mobility, Solar Energy
+### Philosophy & Approach
+> **Zero Effort → Zero Probability**  
+> **Consistent Effort → Non-zero Probability**  
+> **Infinite Consistency → Certainty of Breakthroughs**  
+
+*"Greatness is not about a single lucky event, but about the accumulation of infinite small chances."* – Pankaj Yadav
+
+### Research Interests
+- **Probabilistic Modeling & Statistical Inference**  
+- **Deep Generative Models & AI-based Data Generation**  
+- **Applications:** Healthcare, Finance, Sports Science, Patient Mobility, Solar Energy  
+
+### Selected Projects
+Each project I undertake has a unique story, from understanding complex healthcare patterns to generating realistic synthetic data for AI models. My work emphasizes translating **mathematical insights into actionable solutions** across diverse domains.  
+
+- **Healthcare Data Analysis** – Studying patient mobility and predictive modeling for better interventions.  
+- **Solar Energy Modeling** – Probabilistic estimation of energy outputs under variable conditions.  
+- **Finance & Risk Modeling** – Generative modeling for anomaly and fraud detection.  
+- **Sports Science & Mobility** – Modeling athlete performance and injury risk using advanced statistical techniques.  
+- **AI-based Data Generation** – Creating synthetic datasets that preserve real-world characteristics while enhancing data availability.  
+
 
 
 
