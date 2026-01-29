@@ -30,6 +30,18 @@ As uncertainty in the world increases—the inevitable Law of Thermodynamics—l
 - **Probabilistic Modeling & Statistical Inference**  
 - **Deep Generative Models & AI-based Data Generation**  
 
+### Recent Teaching
+<ul>
+  {% assign sorted_teaching = site.teaching | sort: 'date' | reverse %}
+  {% for course in sorted_teaching limit: 3 %}
+    <li>
+      <a href="{{ course.url | relative_url }}"><strong>{{ course.title }}</strong></a> — {{ course.type }} ({{ course.date | date: "%Y" }})
+    </li>
+  {% endfor %}
+</ul>
+
+[View all teaching experience](/teaching/)
+
 
 Contact: yadav.58@iitj.ac.in 
 
