@@ -7,25 +7,20 @@ permalink: /
 <!-- Parallax Hero Banner Section -->
 <div style="
   background-image: url('/pankajyadav.github.io/images/healthcare.jpg');
-  height: 320px;
+  height: 500px;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: -2em -2em 2em -2em;
+  margin: -2em -2em 3em -2em;
   display: flex;
   align-items: center;
   justify-content: center;
 ">
   <!-- Optional text overlay on top of the banner image -->
-  <h1 style="color: white; font-size: 2.5em; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); font-weight: bold; margin: 0;">Probabilistic AI Research</h1>
+  <h1 style="color: white; font-size: 3em; text-shadow: 3px 3px 12px rgba(0,0,0,0.85); font-weight: bold; margin: 0; padding: 0 20px; text-align: center;">Probabilistic AI Research</h1>
 </div>
 
-<!-- Profile Pictures Overlay Layout -->
-<div style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; margin-bottom: 30px;">
-  <img src="/pankajyadav.github.io/images/healthcare.png" alt="Photo 1" style="flex: 1; max-width: 280px; height: auto; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <img src="/pankajyadav.github.io/images/pk.PNG" alt="Photo 2" style="flex: 1; max-width: 280px; height: auto; object-fit: cover; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-</div>
 
 Hi! I am **Pankaj Yadav**, a PhD researcher. My work broadly spans **Mitigating AI-based data biasdness**, which includes modeling algorithms through critical mathematical bottlenecks. I am passionate about developing and implementing interdisciplinary ideas that connect mathematics to computation and real-world problems.  
 
