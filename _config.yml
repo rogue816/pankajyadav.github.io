@@ -146,12 +146,7 @@ social:
     - "https://www.linkedin.com/in/pankaj-yadav-867a40200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     - "https://github.com/pankajyadav"
 
-# Analytics
-analytics:
-  provider: false
-  google:
-    tracking_id: ""
-
+    
 # Include & Exclude Files
 include:
   - .htaccess
