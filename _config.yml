@@ -13,7 +13,7 @@ title: "Pankaj Yadav | Probabilistic AI Research"
 title_separator: "-"
 name: &name "Pankaj Yadav"
 description: &description "PhD researcher in probabilistic modeling and AI-based data generation. My work explores generative approaches and uncertainty-aware learning for improving data efficiency and model robustness."
-url: "https://github.io"
+url: "https://rogue816.github.io"
 baseurl: "/pankajyadav.github.io"
 repository: "rogue816/pankajyadav.github.io"
 
