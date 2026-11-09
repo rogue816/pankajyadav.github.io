@@ -20,7 +20,7 @@ Education
 * **Ph.D. in Mathematics** (Jan 2022 – Dec 2026, Expected)
   * **Indian Institute of Technology Jodhpur**, India
   * *Thesis:* Rare Regions in Learning and Decision-Making: Certified Oversampling, Local Support, and Thresholds
-  * *Supervisor:* Dr. V. V. M. S. Chandramouli | *CGPA:* 8.7/10
+  * *Supervisor:* Dr. V. V. M. S. Chandramouli | Dr. Vivek Vijay (Former) | *CGPA:* 8.7/10
 * **M.Sc. in Mathematics** (2019 – 2021)
   * **Indian Institute of Technology Jodhpur**, India
   * *CGPA:* 7.36/10
@@ -45,8 +45,8 @@ Awards and Fellowships
 
 Technical Skills
 ======
-* **Programming:** Python, R, MATLAB
-* **ML / DL Frameworks:** PyTorch, TensorFlow, scikit-learn, XGBoost
+* **Programming:** Python, R 
+* **ML / DL Frameworks:** PyTorch, TensorFlow, scikit-learn
 * **Methodologies:** Imbalanced learning, oversampling (SMOTE variants, GANs, VAEs, diffusion), KANs, cost-sensitive thresholding, probability calibration, quantile regression, SARIMA, non-parametric statistical testing (Friedman, Wilcoxon)
 * **Tools:** LaTeX, Git
 
@@ -55,26 +55,4 @@ Leadership and Service
 * **General Secretary**, Hostel B3 | IIT Jodhpur (Sep 2024 – Oct 2025)
 * **Head**, Institute Dining Committee | IIT Jodhpur (Sep 2024 – Sep 2025)
 
-Publications
-======
-<ul>
-  {% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
-</ul>
-  
-Talks and Presentations
-======
-<ul>
-  {% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}
-</ul>
-  
-Teaching Experience
-======
-<ul>
-  {% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
-</ul>
+
