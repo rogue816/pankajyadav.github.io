@@ -13,8 +13,8 @@ title: "Pankaj Yadav | Probabilistic AI Research"
 title_separator: "-"
 name: &name "Pankaj Yadav"
 description: &description "PhD researcher in probabilistic modeling and AI-based data generation. My work explores generative approaches and uncertainty-aware learning for improving data efficiency and model robustness."
-url: "https://rogue816.github.io/pankajyadav.github.io"  # Your GitHub Pages URL
-baseurl: ""
+url: "https://github.io"
+baseurl: "/pankajyadav.github.io"
 repository: "rogue816/pankajyadav.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
