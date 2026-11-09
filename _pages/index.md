@@ -9,7 +9,7 @@ permalink: /
   background-image: url('/pankajyadav.github.io/images/pk.PNG');
   height: 850px;
   background-attachment: fixed;
-  background-position: center 22%;
+  background-position: center 40%;
   background-repeat: no-repeat;
   background-size: cover;
   margin: -2em -2em 3em -2em;
@@ -48,6 +48,12 @@ As uncertainty in the world increases—the inevitable Law of Thermodynamics—l
 [LinkedIn](https://linkedin.com) | 
 [GitHub](https://github.com) | 
 [ORCID](https://orcid.org)
+
+<!-- Live Interactive 3D Spinning Visitor Globe Section -->
+<h3 style="text-align: center; margin-top: 50px;">Global Visitor Reach</h3>
+<div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 30px;">
+  <script type="text/javascript" id="mmvst_globe" src="//://mapmyvisitors.com"></script>
+</div>
 
 <!-- Visitor Counter Badge -->
 <p align="center" style="margin-top: 60px;">
