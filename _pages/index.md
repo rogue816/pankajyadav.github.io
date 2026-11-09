@@ -6,15 +6,13 @@ permalink: /
 
 <!-- Hero Section -->
 <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
-  <img src="images/healthcare.png" alt="Photo 1" style="flex: 1; max-width: 300px; height: auto; object-fit: cover;">
-  <img src="images/pk.PNG" alt="Photo 2" style="flex: 1; max-width: 300px; height: auto; object-fit: cover;">
-  
+  <img src="{{ '/images/healthcare.png' | relative_url }}" alt="Photo 1" style="flex: 1; max-width: 300px; height: auto; object-fit: cover;">
+  <img src="{{ '/images/pk.PNG' | relative_url }}" alt="Photo 2" style="flex: 1; max-width: 300px; height: auto; object-fit: cover;">
 </div>
 
-
-
 ---
-Hi! I am **Pankaj Yadav**, a PhD researcher. My work broadly spans ** Mitigating AI-based data biasdness**, which includes modeling algorithms through critical mathematical bottlenecks. I am passionate about developing and implementing interdisciplinary ideas that connect mathematics to computation and real-world problems.  
+
+Hi! I am **Pankaj Yadav**, a PhD researcher. My work broadly spans **Mitigating AI-based data biasdness**, which includes modeling algorithms through critical mathematical bottlenecks. I am passionate about developing and implementing interdisciplinary ideas that connect mathematics to computation and real-world problems.  
 
 I recently worked on several AI projects, including **healthcare, solar energy, finance, sports science, and patient mobility data**. My focus is on improving **data efficiency, interpretability, and robustness** with statistical inference and its deep generative tools.
 
@@ -30,24 +28,20 @@ As uncertainty in the world increases—the inevitable Law of Thermodynamics—l
 - **Probabilistic Modeling & Statistical Inference**  
 - **Deep Generative Models & AI-based Data Generation**  
 
-Contact: yadav.58@iitj.ac.in 
-
-
+**Contact:** yadav.58@iitj.ac.in 
 
 ---
 
-
-- ## Explore My Work
-*   **[Teaching](/teaching)**
-    {% for course in site.teaching limit: 3 %}
-    - [{{ course.title }}]({{ course.url | relative_url }})
-    {% endfor %}
-*   [Publications](/publications)
-*   [Talks](/talks)
-*   [Portfolio](/portfolio)
-*   [CV](/cv)
+## Explore My Work
+* **[Teaching]({{ '/teaching/' | relative_url }})**
+  {% for course in site.teaching limit: 3 %}
+  - [{{ course.title }}]({{ course.url | relative_url }})
+  {% endfor %}
+* [Publications]({{ '/publications/' | relative_url }})
+* [Talks]({{ '/talks/' | relative_url }})
+* [Portfolio]({{ '/portfolio/' | relative_url }})
+* [CV]({{ '/cv/' | relative_url }})
  
-
 ---
 
 ## Connect with Me
