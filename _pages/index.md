@@ -47,3 +47,8 @@ As uncertainty in the world increases—the inevitable Law of Thermodynamics—l
 [LinkedIn](https://www.linkedin.com/in/pankaj-yadav-867a40200/) | 
 [GitHub](https://github.com/pankajyadav) | 
 [ORCID](https://orcid.org/0009-0009-1437-5659?lang=en)
+
+
+<p align="center" style="margin-top: 50px;">
+  <img src="https://laobi.icu" alt="Visitor Count">
+</p>
