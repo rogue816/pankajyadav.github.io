@@ -31,16 +31,15 @@ As uncertainty in the world increases—the inevitable Law of Thermodynamics—l
 
 ---
 
+---
+
 ## Explore My Work
-* **[Teaching]({{ '/teaching/' | relative_url }})**
-  {% for course in site.teaching limit: 3 %}
-  - [{{ course.title }}]({{ course.url | relative_url }})
-  {% endfor %}
+* **Teaching & Mentorship:** Graduate Teaching Assistant (IIT Jodhpur) & Guest Instructor (CUSB Remote)
 * [Publications]({{ '/publications/' | relative_url }})
 * [Talks]({{ '/talks/' | relative_url }})
 * [Portfolio]({{ '/portfolio/' | relative_url }})
 * [CV]({{ '/cv/' | relative_url }})
- 
+
 ---
 
 ## Connect with Me
