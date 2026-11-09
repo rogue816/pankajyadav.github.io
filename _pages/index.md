@@ -9,7 +9,7 @@ permalink: /
   background-image: url('/pankajyadav.github.io/images/pk.PNG');
   height: 850px;
   background-attachment: fixed;
-  background-position: center 40%;
+  background-position: center 32%;
   background-repeat: no-repeat;
   background-size: cover;
   margin: -2em -2em 3em -2em;
@@ -55,7 +55,4 @@ As uncertainty in the world increases—the inevitable Law of Thermodynamics—l
   <script type="text/javascript" id="mmvst_globe" src="//://mapmyvisitors.com"></script>
 </div>
 
-<!-- Visitor Counter Badge -->
-<p align="center" style="margin-top: 60px;">
-  <img src="https://laobi.icu" alt="Visitor Count">
-</p>
+
