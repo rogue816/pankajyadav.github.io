@@ -6,11 +6,10 @@ permalink: /
 
 <!-- Hero Section -->
 <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
-  <img src="{{ '/images/healthcare.png' | relative_url }}" alt="Photo 1" style="flex: 1; max-width: 300px; height: auto; object-fit: cover;">
-  <img src="{{ '/images/pk.PNG' | relative_url }}" alt="Photo 2" style="flex: 1; max-width: 300px; height: auto; object-fit: cover;">
+  <img src="/pankajyadav.github.io/images/healthcare.png" alt="Photo 1" style="flex: 1; max-width: 300px; height: auto; object-fit: cover;">
+  <img src="/pankajyadav.github.io/images/pk.PNG" alt="Photo 2" style="flex: 1; max-width: 300px; height: auto; object-fit: cover;">
 </div>
 
----
 
 Hi! I am **Pankaj Yadav**, a PhD researcher. My work broadly spans **Mitigating AI-based data biasdness**, which includes modeling algorithms through critical mathematical bottlenecks. I am passionate about developing and implementing interdisciplinary ideas that connect mathematics to computation and real-world problems.  
 
