@@ -6,7 +6,7 @@ permalink: /
 
 <!-- Re-architected Parallax Hero Banner Section -->
 <div style="
-  background-image: url('/pankajyadav.github.io/images/healthcare.jpg');
+  background-image: url('/pankajyadav.github.io/images/pk.PNG');
   height: 850px;
   background-attachment: fixed;
   background-position: center 22%;
