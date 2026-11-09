@@ -6,10 +6,10 @@ permalink: /
 
 <!-- Re-architected Parallax Hero Banner Section -->
 <div style="
-  background-image: url('/pankajyadav.github.io/images/pk.PNG');
+  background-image: url('/pankajyadav.github.io/images/healthcare.png');
   height: 850px;
   background-attachment: fixed;
-  background-position: center 32%;
+  background-position: center 22%;
   background-repeat: no-repeat;
   background-size: cover;
   margin: -2em -2em 3em -2em;
@@ -49,10 +49,12 @@ As uncertainty in the world increases—the inevitable Law of Thermodynamics—l
 [GitHub](https://github.com) | 
 [ORCID](https://orcid.org)
 
-<!-- Live Interactive 3D Spinning Visitor Globe Section -->
+<!-- Live Flat Map Analytics Widget Section -->
 <h3 style="text-align: center; margin-top: 50px;">Global Visitor Reach</h3>
-<div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 30px;">
-  <script type="text/javascript" id="mmvst_globe" src="//://mapmyvisitors.com"></script>
+<div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 40px;">
+  <a href="https://mapmyvisitors.com/web/1c9ds" title="Visit tracker" target="_blank">
+    <img src="https://mapmyvisitors.com/map.png?d=sKAaxWpSIhqPpJsq6envxHh9wm5d5RZV3FmR5YPehIo&cl=ffffff" alt="Visitor Map" style="max-width: 100%; height: auto; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+  </a>
 </div>
 
 
