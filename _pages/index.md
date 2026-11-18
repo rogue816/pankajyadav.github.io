@@ -5,115 +5,75 @@ permalink: /
 ---
 
 <style>
-  /* Dark Purple Page Theme with White & Blue Typography */
+  /* Dark Purple Page Theme */
   body,
   .page-content,
   .wrapper,
-  main,
-  p,
-  li {
+  main {
     background-color: #140b24 !important;
+    color: #f3e8ff !important;
+  }
+
+  /* Headings */
+  h1, h2, h3, h4, strong {
     color: #ffffff !important;
   }
 
-  /* Headings with White Underline */
-  h1, h2, h3, h4 {
-    color: #ffffff !important;
-  }
-  .section-heading-underline {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-    padding-bottom: 6px;
-    margin-top: 32px;
-    margin-bottom: 18px;
-    display: block;
-  }
-
-  /* Bold / Highlighted Text & Links in Blue */
-  strong, b {
-    color: #38bdf8 !important;
-    font-weight: 700;
-  }
+  /* Links */
   a {
-    color: #38bdf8 !important;
-    text-decoration: underline;
-    font-weight: 600;
+    color: #c084fc !important;
   }
   a:hover {
-    color: #7dd3fc !important;
+    color: #e9d5ff !important;
   }
 
-  /* Subtle Divider Line */
+  /* Subtle Purple Divider Line */
   hr {
     border: 0;
-    border-top: 1px solid #ffffff !important;
-    opacity: 0.35;
+    border-top: 1px solid #3b1f63 !important;
   }
 
   /* Keep Top Header / Footer Blended in Deep Purple */
   .site-header,
   .site-footer {
     background-color: #0e071a !important;
-    border-color: #3b1f63 !important;
+    border-color: #2e174d !important;
   }
   .site-title,
   .site-title:visited,
   .site-nav .page-link {
-    color: #ffffff !important;
-    text-decoration: none !important;
-  }
-  .site-nav .page-link:hover {
-    color: #38bdf8 !important;
+    color: #f3e8ff !important;
   }
 
-  /* News & Major Events: Individual Solid Blocks One by One */
-  .news-blocks-list {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    margin: 18px 0 40px 0;
-  }
-
-  .news-solid-block {
-    background-color: #1d0f36;
-    border: 2px solid #4c2889;
+  /* News & Major Events Scrollable Timeline */
+  .news-container {
+    max-height: 280px;
+    overflow-y: auto;
+    background-color: #1c1033;
+    border: 1px solid #3b1f63;
     border-radius: 8px;
     padding: 14px 18px;
-    display: flex;
-    align-items: flex-start;
-    gap: 16px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    margin: 15px 0 35px 0;
   }
-
-  /* Small Solid Carved Date Badge */
-  .news-date-carved {
-    background-color: #100720;
-    border: 1px solid #38bdf8;
-    border-radius: 6px;
-    padding: 5px 11px;
-    min-width: 92px;
-    text-align: center;
-    font-size: 0.85em;
-    font-weight: 700;
-    letter-spacing: 0.6px;
-    color: #38bdf8 !important;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.75);
-    flex-shrink: 0;
+  .news-table {
+    width: 100%;
+    border-collapse: collapse;
   }
-
-  /* News Details in White with Blue Highlights/Links */
-  .news-detail-text {
-    color: #ffffff !important;
-    font-size: 0.96em;
-    line-height: 1.55;
+  .news-table td {
+    padding: 9px 4px;
+    vertical-align: top;
+    border-bottom: 1px solid #2e174d;
+    font-size: 0.95em;
+    color: #f3e8ff;
   }
-
-  @media (max-width: 600px) {
-    .news-solid-block {
-      flex-direction: column;
-      gap: 10px;
-    }
+  .news-table tr:last-child td {
+    border-bottom: none;
+  }
+  .news-date {
+    width: 105px;
+    font-weight: 600;
+    color: #c084fc !important;
+    white-space: nowrap;
   }
 </style>
 
@@ -130,29 +90,33 @@ permalink: /
   justify-content: center;
 ">
   <div style="text-align: center; padding: 0 20px;">
-    <h1 style="font-family: 'Great Vibes', 'Bickham Script', 'Playfair Display', 'Georgia', cursive; color: #ffffff !important; font-size: 5.5em; font-weight: normal; font-style: italic; margin: 0; padding: 0; line-height: 1.1; text-shadow: 3px 4px 15px rgba(0,0,0,0.85); letter-spacing: 1px;">Pankaj Yadav</h1>
-    <p style="font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', sans-serif; color: #ffffff !important; background: transparent !important; font-size: 1.25em; text-transform: uppercase; letter-spacing: 4px; margin: 15px 0 0 0; font-weight: 500; text-shadow: 2px 2px 8px rgba(0,0,0,0.9);">Probabilistic AI Research</p>
+    <h1 style="font-family: 'Great Vibes', 'Bickham Script', 'Playfair Display', 'Georgia', cursive; color: #ffffff; font-size: 5.5em; font-weight: normal; font-style: italic; margin: 0; padding: 0; line-height: 1.1; text-shadow: 3px 4px 15px rgba(0,0,0,0.85); letter-spacing: 1px;">Pankaj Yadav</h1>
+    <p style="font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', sans-serif; color: #e6e6e6; font-size: 1.25em; text-transform: uppercase; letter-spacing: 4px; margin: 15px 0 0 0; font-weight: 500; text-shadow: 2px 2px 8px rgba(0,0,0,0.9);">Probabilistic AI Research</p>
   </div>
 </div>
 
-Hi! I am **Pankaj Yadav**, a PhD researcher focusing on mitigating **AI data bias**, **statistical inference**, and **deep generative models** across **healthcare**, **solar energy**, and **finance**.
+Hi! I am **Pankaj Yadav**, a PhD researcher focusing on mitigating AI data bias, statistical inference, and deep generative models across healthcare, solar energy, and finance.
 
-<h3 class="section-heading-underline">Academic Background</h3>
-
+### Academic Background
 - **PhD in Mathematics**, Indian Institute of Technology (IIT) Jodhpur, Mathematics Department
 - **M.Sc. in Mathematics**, IIT Jodhpur
 - **B.Sc. (Hons) in Mathematics**, University of Delhi
 
-<h3 class="section-heading-underline">Philosophy &amp; Approach</h3>
+### Philosophy & Approach
+As uncertainty in the world increases—the inevitable Law of Thermodynamics—life will continue to surprise you. Keep Body, Soul, and Spirit in check, and the mortgage will be paid.
 
-As uncertainty in the world increases—the inevitable **Law of Thermodynamics**—life will continue to surprise you. Keep **Body, Soul, and Spirit** in check, and the mortgage will be paid.
+### Research Interests
+- **Probabilistic Modeling & Statistical Inference**
+- **Deep Generative Models & AI-based Data Generation**
 
-<h3 class="section-heading-underline">Research Interests</h3>
+**Contact:** yadav.58@iitj.ac.in
 
-- **Probabilistic Modeling &amp; Statistical Inference**
-- **Deep Generative Models &amp; AI-based Data Generation**
+---
 
-**Contact:** [yadav.58@iitj.ac.in](mailto:yadav.58@iitj.ac.in)
+## Connect with Me
+[Google Scholar](https://google.co.in) | [LinkedIn](https://linkedin.com) | [GitHub](https://github.com) | [ORCID](https://orcid.org)
+
+---
 
 <h3 class="section-heading-underline">News &amp; Major Events</h3>
 
@@ -222,18 +186,8 @@ As uncertainty in the world increases—the inevitable **Law of Thermodynamics**
   </div>
 
 </div>
-
-
----
-
-<h2 class="section-heading-underline">Connect with Me</h2>
-
-[Google Scholar](https://google.co.in) | [LinkedIn](https://linkedin.com) | [GitHub](https://github.com) | [ORCID](https://orcid.org)
-
----
-
 <!-- Live Flat Map Analytics Widget Section -->
-<h3 style="text-align: center; margin-top: 50px; color: #ffffff !important;">Global Visitor Reach</h3>
+<h3 style="text-align: center; margin-top: 50px;">Global Visitor Reach</h3>
 <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="https://mapmyvisitors.com" title="Visit tracker" target="_blank">
     <img src="https://mapmyvisitors.com" alt="Visitor Map" style="max-width: 100%; height: auto; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
