@@ -4,6 +4,47 @@ title: Pankaj Yadav
 permalink: /
 ---
 
+<style>
+  /* Dark Purple Page Theme */
+  body,
+  .page-content,
+  .wrapper,
+  main {
+    background-color: #140b24 !important;
+    color: #f3e8ff !important;
+  }
+
+  /* Headings */
+  h1, h2, h3, h4, strong {
+    color: #ffffff !important;
+  }
+
+  /* Links */
+  a {
+    color: #c084fc !important;
+  }
+  a:hover {
+    color: #e9d5ff !important;
+  }
+
+  /* Subtle Purple Divider Line */
+  hr {
+    border: 0;
+    border-top: 1px solid #3b1f63 !important;
+  }
+
+  /* Keep Top Header / Footer Blended in Deep Purple */
+  .site-header,
+  .site-footer {
+    background-color: #0e071a !important;
+    border-color: #2e174d !important;
+  }
+  .site-title,
+  .site-title:visited,
+  .site-nav .page-link {
+    color: #f3e8ff !important;
+  }
+</style>
 <div style="
   background-image: url('/pankajyadav.github.io/images/healthcare.png');
   height: 850px;
