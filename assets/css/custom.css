@@ -114,10 +114,35 @@ a:hover { color: var(--py-gold); }
 .greedy-nav .hidden-links a:hover { background: var(--py-bg) !important; }
 
 /* ---- Left sidebar (author profile) ---- */
-.author__avatar img {
-  border: 2px solid var(--py-gold) !important;
-  padding: 3px;
-  background: var(--py-bg);
+/* Section icon in a gold-ringed oval (replaces the photo) */
+.author__avatar { text-align: center; }
+.py-avatar {
+  width: 150px;
+  height: 112px;
+  margin: 0 auto;
+  border-radius: 50%;                       /* oval, since width > height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(ellipse at 50% 35%, #1d2b44 0%, var(--py-bg-raised) 70%);
+  border: 2px solid var(--py-gold);
+  box-shadow: 0 0 0 5px var(--py-bg), 0 0 0 6px var(--py-rule), 0 10px 24px rgba(0,0,0,0.35);
+}
+.py-avatar i { font-size: 2.6rem; color: var(--py-gold-soft); }
+.py-avatar-label {
+  display: block;
+  margin-top: 14px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--py-gold);
+}
+@media (max-width: 924px) {               /* small screens: compact oval beside the name */
+  .py-avatar { width: 50px; height: 38px; box-shadow: none; border-width: 1px; }
+  .py-avatar i { font-size: 1.05rem; }
+  .py-avatar-label { display: none; }
 }
 .author__name {
   font-family: 'Cormorant Garamond', Georgia, serif;

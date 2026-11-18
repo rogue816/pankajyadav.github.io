@@ -6,12 +6,26 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
+  {% comment %} Section icon in an oval instead of a photo {% endcomment %}
+  {% assign py_icon = "fa-user-graduate" %}{% assign py_label = "Profile" %}
+  {% if page.collection == "publications" or page.url contains "/publication" %}
+    {% assign py_icon = "fa-file-lines" %}{% assign py_label = "Publications" %}
+  {% elsif page.collection == "talks" or page.url contains "/talk" %}
+    {% assign py_icon = "fa-microphone-lines" %}{% assign py_label = "Talks" %}
+  {% elsif page.collection == "teaching" or page.url contains "/teaching" %}
+    {% assign py_icon = "fa-chalkboard-user" %}{% assign py_label = "Teaching" %}
+  {% elsif page.url contains "/cv" %}
+    {% assign py_icon = "fa-address-card" %}{% assign py_label = "CV" %}
+  {% elsif page.collection == "portfolio" or page.url contains "/portfolio" %}
+    {% assign py_icon = "fa-briefcase" %}{% assign py_label = "Portfolio" %}
+  {% elsif page.collection == "posts" or page.url contains "archive" %}
+    {% assign py_icon = "fa-pen-nib" %}{% assign py_label = "Blog" %}
+  {% endif %}
   <div class="author__avatar">
-    {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
-    {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
-    {% endif %}
+    <div class="py-avatar" role="img" aria-label="{{ py_label }}">
+      <i class="fa-solid {{ py_icon }}" aria-hidden="true"></i>
+    </div>
+    <span class="py-avatar-label">{{ py_label }}</span>
   </div>
 
   <div class="author__content">
