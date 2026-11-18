@@ -166,3 +166,4 @@ As uncertainty in the world increases—the inevitable Law of Thermodynamics—l
     <img src="https://mapmyvisitors.com" alt="Visitor Map" style="max-width: 100%; height: auto; border-radius: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
   </a>
 </div>
+
