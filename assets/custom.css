@@ -1,0 +1,212 @@
+/* ==========================================================================
+   Pankaj Yadav — site-wide academic dark theme (navy + gold)
+   Loaded after the theme's main.css from _includes/head/custom.html,
+   so it applies to every page: Home, Publications, CV, Teaching, Talks.
+   ========================================================================== */
+
+/* ---- Palette (overrides the theme's light AND dark variables) ---- */
+:root,
+html[data-theme="dark"] {
+  --py-bg: #0f1724;
+  --py-bg-raised: #162133;
+  --py-text: #d6dbe3;
+  --py-text-dim: #9aa4b2;
+  --py-heading: #f1ece2;
+  --py-gold: #c9a96e;
+  --py-gold-soft: #e0cc9f;
+  --py-rule: #26324a;
+
+  --global-base-color: var(--py-gold) !important;
+  --global-bg-color: var(--py-bg) !important;
+  --global-footer-bg-color: var(--py-bg) !important;
+  --global-border-color: var(--py-rule) !important;
+  --global-dark-border-color: #34425e !important;
+  --global-code-background-color: #1b2840 !important;
+  --global-code-text-color: #e6dcc6 !important;
+  --global-fig-caption-color: var(--py-text-dim) !important;
+  --global-link-color: var(--py-gold-soft) !important;
+  --global-link-color-hover: var(--py-gold) !important;
+  --global-link-color-visited: var(--py-gold-soft) !important;
+  --global-masthead-link-color: var(--py-text) !important;
+  --global-masthead-link-color-hover: var(--py-gold) !important;
+  --global-text-color: var(--py-text) !important;
+  --global-text-color-light: var(--py-text-dim) !important;
+  --global-thead-color: var(--py-bg-raised) !important;
+}
+
+html, body { background: var(--py-bg) !important; color: var(--py-text); }
+
+body {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+/* The site is always dark now, so the sun/moon toggle is not needed */
+#theme-toggle { display: none !important; }
+
+/* ---- Headings ---- */
+h1, h2, h3, h4, h5, h6 { color: var(--py-heading); }
+h1, h2, .page__title {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.page__title {
+  font-size: 2.6rem;
+  font-style: italic;
+  color: var(--py-heading);
+  margin-bottom: 0.6em;
+}
+.archive h2:not(.archive__item-title) {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--py-gold);
+  border: none;
+  margin: 2.2em 0 0.4em 0;
+}
+hr { border: 0; border-top: 1px solid var(--py-rule); }
+
+a { color: var(--py-gold-soft); text-decoration: none; }
+a:hover { color: var(--py-gold); }
+
+/* ---- Top navigation bar ---- */
+.masthead {
+  background: rgba(15, 23, 36, 0.96) !important;
+  border-top: 3px solid var(--py-gold);
+  border-bottom: 1px solid var(--py-rule) !important;
+  backdrop-filter: blur(6px);
+}
+.greedy-nav { background: transparent !important; }
+.greedy-nav a {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--py-text-dim) !important;
+  transition: color 0.2s ease;
+}
+.greedy-nav a:hover { color: var(--py-gold) !important; }
+.greedy-nav .masthead__menu-item--lg a {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.35rem;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-transform: none;
+  color: var(--py-heading) !important;
+}
+.greedy-nav .visible-links a::before { background: var(--py-gold) !important; }
+.greedy-nav button { background: transparent !important; }
+.greedy-nav .navicon,
+.greedy-nav .navicon::before,
+.greedy-nav .navicon::after { background: var(--py-gold-soft) !important; }
+.greedy-nav .hidden-links {
+  background: var(--py-bg-raised) !important;
+  border-color: var(--py-rule) !important;
+}
+.greedy-nav .hidden-links::before { border-color: var(--py-rule) transparent !important; }
+.greedy-nav .hidden-links::after { border-color: var(--py-bg-raised) transparent !important; }
+.greedy-nav .hidden-links a:hover { background: var(--py-bg) !important; }
+
+/* ---- Left sidebar (author profile) ---- */
+.author__avatar img {
+  width: 100%;
+  max-width: 175px;
+  aspect-ratio: 1 / 1;          /* perfect circle even for a tall photo */
+  object-fit: cover;
+  object-position: center 15%;  /* keep the face in the circle */
+  border-radius: 50%;
+  border: 2px solid var(--py-gold) !important;
+  padding: 3px;
+  background: var(--py-bg);
+}
+.author__name {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--py-heading);
+}
+.author__bio, .author__pronouns { color: var(--py-text-dim); }
+.author__urls { background: var(--py-bg-raised) !important; border-color: var(--py-rule) !important; }
+.author__urls a, .author__urls li { color: var(--py-text) !important; }
+.author__urls a:hover { color: var(--py-gold) !important; }
+.author__urls-wrapper button {
+  background: transparent !important;
+  color: var(--py-gold-soft) !important;
+  border: 1px solid var(--py-rule) !important;
+}
+
+/* ---- Publication / talk list items as cards ---- */
+.archive .list__item .archive__item {
+  background: var(--py-bg-raised);
+  border: 1px solid var(--py-rule);
+  border-left: 3px solid var(--py-gold);
+  border-radius: 6px;
+  padding: 1.1em 1.4em 0.4em 1.4em;
+  margin: 1.1em 0;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.archive .list__item .archive__item:hover {
+  border-color: #3a4a6a;
+  border-left-color: var(--py-gold-soft);
+  transform: translateY(-1px);
+}
+.archive__item-title {
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 1.45rem !important;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 0 !important;
+  border: none !important;
+}
+.archive__item-title a { color: var(--py-heading); }
+.archive__item-title a:hover { color: var(--py-gold); }
+.archive__item p { color: var(--py-text); font-size: 1rem; }
+.archive__item p i { color: var(--py-gold-soft); }
+.archive__item-excerpt { color: var(--py-text-dim) !important; }
+
+/* ---- Single publication page ---- */
+.page__inner-wrap header p { color: var(--py-text-dim); }
+.page__inner-wrap header p i { color: var(--py-gold-soft); }
+.page__content { color: var(--py-text); }
+.page__content p[style*="smaller"] {
+  background: var(--py-bg-raised);
+  border-left: 3px solid var(--py-gold);
+  border-radius: 0 6px 6px 0;
+  padding: 14px 18px;
+  color: var(--py-text-dim);
+}
+blockquote {
+  background: var(--py-bg-raised);
+  border-left: 3px solid var(--py-gold) !important;
+  color: var(--py-text);
+  font-style: italic;
+  padding: 0.8em 1.2em;
+}
+.btn, .page__share .btn {
+  background: transparent !important;
+  color: var(--py-gold-soft) !important;
+  border: 1px solid rgba(224, 204, 159, 0.45) !important;
+  border-radius: 999px !important;
+}
+.btn:hover { background: var(--py-gold-soft) !important; color: var(--py-bg) !important; }
+.page__meta, .page__meta-title, .page__date { color: var(--py-text-dim) !important; }
+
+/* ---- Tables, code ---- */
+table { border-color: var(--py-rule); }
+th { background: var(--py-bg-raised); color: var(--py-heading); }
+td { border-color: var(--py-rule); }
+
+/* ---- Footer ---- */
+.page__footer {
+  background: var(--py-bg) !important;
+  border-top: 1px solid var(--py-rule) !important;
+  color: var(--py-text-dim) !important;
+}
+.page__footer a { color: var(--py-gold-soft) !important; }
+.page__footer-follow .social-icons a { color: var(--py-text-dim) !important; }
