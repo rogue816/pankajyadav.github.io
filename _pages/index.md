@@ -10,89 +10,110 @@ permalink: /
 
 <style>
   :root {
-    --navy: #14213d;
-    --navy-deep: #0b1426;
-    --gold: #b08d57;
-    --gold-soft: #d8c39a;
-    --ink: #2b2b2b;
-    --muted: #5f6673;
-    --paper: #fbfaf7;
-    --rule: #e6e0d4;
+    --bg: #0f1724;          /* page background: deep blue-slate, easy on the eyes */
+    --bg-raised: #162133;   /* cards / quote / bands */
+    --text: #d6dbe3;        /* body text: soft off-white, not pure white */
+    --text-dim: #9aa4b2;
+    --heading: #f1ece2;
+    --gold: #c9a96e;
+    --gold-soft: #e0cc9f;
+    --rule: #26324a;
   }
 
-  .py-hero {
-    position: relative;
-    height: 560px;
-    margin: -2em -2em 0 -2em;
-    background-image: url('/pankajyadav.github.io/images/healthcare.png');
-    background-size: cover;
-    background-position: center 30%;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+  /* ---- Make the whole site dark, including the theme's header & footer ---- */
+  html, body { background: var(--bg) !important; color: var(--text); }
+  .site-header, .site-footer {
+    background: var(--bg) !important;
+    border-color: var(--rule) !important;
   }
-  .py-hero::before {
+  .site-header { border-top: 3px solid var(--gold) !important; border-bottom: 1px solid var(--rule) !important; }
+  .site-title, .site-title:visited { color: var(--heading) !important; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 1.5rem; }
+  .site-nav .page-link, .site-nav .page-link:visited { color: var(--text-dim) !important; }
+  .site-nav .page-link:hover { color: var(--gold) !important; }
+  .site-nav { background: var(--bg) !important; border-color: var(--rule) !important; }
+  .site-nav .menu-icon svg path { fill: var(--text-dim) !important; }
+  .site-footer, .site-footer * { color: var(--text-dim) !important; }
+  .site-footer a { color: var(--gold-soft) !important; }
+  .page-content { background: var(--bg); }
+  a { color: var(--gold-soft); }
+
+  /* ---- Hero: portrait beside name (no cropping of a vertical photo) ---- */
+  .py-hero {
+    max-width: 960px;
+    margin: 24px auto 0 auto;
+    padding: 40px 8px 56px 8px;
+    display: grid;
+    grid-template-columns: minmax(220px, 340px) 1fr;
+    gap: 56px;
+    align-items: center;
+    border-bottom: 1px solid var(--rule);
+  }
+  .py-portrait {
+    position: relative;
+    width: 100%;
+  }
+  .py-portrait::before {           /* offset gold frame */
     content: "";
     position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(11,20,38,0.35) 0%, rgba(11,20,38,0.55) 60%, rgba(11,20,38,0.85) 100%);
+    inset: 14px -14px -14px 14px;
+    border: 1px solid var(--gold);
+    border-radius: 4px;
+    opacity: 0.7;
   }
-  .py-hero-inner {
+  .py-portrait img {
     position: relative;
-    text-align: center;
-    padding: 0 24px;
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: center 15%;   /* raise or lower to adjust framing */
+    border-radius: 4px;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.45);
   }
-  .py-hero h1 {
-    font-family: 'Cormorant Garamond', 'Georgia', serif;
+  .py-hero-text h1 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
     font-weight: 500;
     font-style: italic;
-    color: #ffffff;
-    font-size: clamp(3rem, 8vw, 5.2rem);
-    letter-spacing: 1px;
+    color: var(--heading);
+    font-size: clamp(3rem, 7vw, 4.8rem);
     line-height: 1.05;
+    letter-spacing: 0.5px;
     margin: 0;
-    text-shadow: 0 4px 20px rgba(0,0,0,0.45);
+    border: none;
   }
-  .py-hero .py-divider {
-    width: 72px;
-    height: 2px;
-    background: var(--gold-soft);
-    margin: 22px auto 18px auto;
-  }
-  .py-hero p {
+  .py-divider { width: 64px; height: 2px; background: var(--gold); margin: 22px 0 18px 0; }
+  .py-tagline {
     font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif;
-    color: #ece6da;
-    font-size: 0.95rem;
+    color: var(--gold-soft);
+    font-size: 0.88rem;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 5px;
+    margin: 0 0 26px 0;
+  }
+  .py-intro {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 1.28rem;
+    line-height: 1.7;
+    color: var(--text);
     margin: 0;
   }
+  .py-intro strong { color: var(--heading); font-weight: 500; }
 
+  /* ---- Body ---- */
   .py-body {
     max-width: 760px;
     margin: 0 auto;
-    padding: 64px 8px 24px 8px;
-    font-family: 'EB Garamond', 'Georgia', serif;
-    color: var(--ink);
+    padding: 56px 8px 16px 8px;
+    font-family: 'EB Garamond', Georgia, serif;
+    color: var(--text);
     font-size: 1.18rem;
     line-height: 1.75;
   }
-  .py-intro {
-    font-size: 1.32rem;
-    line-height: 1.7;
-    text-align: center;
-    color: var(--navy);
-    margin: 0 0 56px 0;
-  }
-  .py-intro strong { color: var(--navy-deep); font-weight: 500; }
-
-  .py-section { margin: 0 0 48px 0; }
+  .py-section { margin: 0 0 46px 0; }
   .py-section h3 {
     font-family: 'Inter', sans-serif;
-    font-size: 0.78rem;
+    font-size: 0.76rem;
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -102,51 +123,45 @@ permalink: /
     border-bottom: 1px solid var(--rule);
   }
   .py-section ul { list-style: none; padding: 0; margin: 0; }
-  .py-section li {
-    position: relative;
-    padding: 6px 0 6px 22px;
-  }
+  .py-section li { position: relative; padding: 6px 0 6px 24px; }
   .py-section li::before {
     content: "";
     position: absolute;
-    left: 2px;
-    top: 0.95em;
-    width: 7px;
-    height: 7px;
+    left: 2px; top: 0.95em;
+    width: 7px; height: 7px;
     border: 1px solid var(--gold);
     transform: rotate(45deg);
   }
-  .py-section li strong { color: var(--navy); font-weight: 500; }
-
+  .py-section li strong { color: var(--heading); font-weight: 500; }
   .py-quote {
     margin: 0;
-    padding: 18px 24px;
-    background: var(--paper);
+    padding: 20px 26px;
+    background: var(--bg-raised);
     border-left: 3px solid var(--gold);
+    border-radius: 0 4px 4px 0;
     font-style: italic;
-    color: #3d4250;
+    color: var(--text);
   }
-
-  .py-contact {
-    text-align: center;
-    margin: 8px 0 0 0;
-    font-size: 1.1rem;
-    color: var(--muted);
-  }
-  .py-contact a { color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--gold-soft); }
+  .py-contact { text-align: center; margin: 6px 0 0 0; font-size: 1.12rem; color: var(--text-dim); }
+  .py-contact strong { color: var(--heading); font-weight: 500; }
+  .py-contact a { color: var(--gold-soft); text-decoration: none; border-bottom: 1px solid rgba(224,204,159,0.4); }
   .py-contact a:hover { color: var(--gold); }
 
+  /* ---- Connect ---- */
   .py-connect {
-    background: var(--navy);
-    margin: 56px -2em 0 -2em;
-    padding: 56px 24px;
+    max-width: 960px;
+    margin: 48px auto 0 auto;
+    padding: 48px 24px;
+    background: var(--bg-raised);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
     text-align: center;
   }
   .py-connect h2 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
     font-size: 2.1rem;
-    color: #ffffff;
+    color: var(--heading);
     margin: 0 0 24px 0;
     border: none;
   }
@@ -158,17 +173,18 @@ permalink: /
     letter-spacing: 1px;
     color: var(--gold-soft);
     text-decoration: none;
-    padding: 9px 20px;
-    border: 1px solid rgba(216,195,154,0.45);
+    padding: 9px 22px;
+    border: 1px solid rgba(224,204,159,0.4);
     border-radius: 999px;
     transition: all 0.2s ease;
   }
-  .py-links a:hover { background: var(--gold-soft); color: var(--navy); }
+  .py-links a:hover { background: var(--gold-soft); color: var(--bg); }
 
+  /* ---- Visitors ---- */
   .py-visitors { text-align: center; padding: 56px 8px 40px 8px; }
   .py-visitors h3 {
     font-family: 'Inter', sans-serif;
-    font-size: 0.78rem;
+    font-size: 0.76rem;
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -180,28 +196,33 @@ permalink: /
     height: auto;
     border-radius: 6px;
     border: 1px solid var(--rule);
-    box-shadow: 0 6px 18px rgba(20,33,61,0.10);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
   }
 
-  @media (max-width: 640px) {
-    .py-hero { height: 420px; background-position: center 25%; }
-    .py-hero p { letter-spacing: 3px; font-size: 0.8rem; }
+  /* ---- Mobile ---- */
+  @media (max-width: 760px) {
+    .py-hero { grid-template-columns: 1fr; gap: 40px; text-align: center; padding-top: 24px; }
+    .py-portrait { max-width: 260px; margin: 0 auto; }
+    .py-divider { margin: 20px auto 16px auto; }
+    .py-tagline { letter-spacing: 3px; font-size: 0.8rem; }
+    .py-intro { font-size: 1.15rem; }
     .py-body { font-size: 1.1rem; padding-top: 44px; }
-    .py-intro { font-size: 1.18rem; }
   }
 </style>
 
 <div class="py-hero">
-  <div class="py-hero-inner">
+  <div class="py-portrait">
+    <img src="/pankajyadav.github.io/images/healthcare.png" alt="Pankaj Yadav">
+  </div>
+  <div class="py-hero-text">
     <h1>Pankaj Yadav</h1>
     <div class="py-divider"></div>
-    <p>Probabilistic AI Research</p>
+    <p class="py-tagline">Probabilistic AI Research</p>
+    <p class="py-intro">Hi! I am <strong>Pankaj Yadav</strong>, a PhD researcher focusing on mitigating AI data bias, statistical inference, and deep generative models across healthcare, solar energy, and finance.</p>
   </div>
 </div>
 
 <div class="py-body">
-
-  <p class="py-intro">Hi! I am <strong>Pankaj Yadav</strong>, a PhD researcher focusing on mitigating AI data bias, statistical inference, and deep generative models across healthcare, solar energy, and finance.</p>
 
   <div class="py-section">
     <h3>Academic Background</h3>
