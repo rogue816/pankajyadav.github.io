@@ -22,7 +22,7 @@ repository: "rogue816/pankajyadav.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "images/profile.png"       # Upload your photo to the images/ folder
+  avatar: "healthcare.png"       # Upload your photo to the images/ folder
   name: "Pankaj Yadav"
   pronouns: "he/him"
   bio: "PhD researcher working on probabilistic modeling and AI-based data generation. My work spans healthcare, solar, finance, sports science, and patient mobility data, focusing on data efficiency, interpretability, and robustness."
@@ -90,7 +90,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser: "images/profile.png"  # fallback teaser image for social media previews
+teaser: "healthcare.png"  # fallback teaser image for social media previews
 breadcrumbs: false
 words_per_minute: 160
 future: true
@@ -134,7 +134,7 @@ facebook:
   username: ""
   app_id: ""
   publisher: ""
-og_image: "images/profile.png"  # default image for social sharing
+og_image: "healthcare.png"  # default image for social sharing
 og_description: "PhD researcher in probabilistic modeling and AI-based data generation."
 
 social:
