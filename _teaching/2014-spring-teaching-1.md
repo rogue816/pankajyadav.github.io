@@ -10,33 +10,68 @@ location: "Jodhpur, India"
 
 I have served as a Full-time Teaching Assistant for various B.Tech, M.Tech, and Executive programmes at IIT Jodhpur. My responsibilities included conducting tutorials, grading, and assisting in course management.
 
-Current & Upcoming
-======
-* **Statistical Techniques** | Aug 2025 – Nov 2025  
-  *Full-time Teaching Assistant, Department of Mathematics*
-* **MAL2010: Probability Statistics and Stochastic Process (PSSP)** | Aug 2025 – Nov 2025  
-  *Full-time Teaching Assistant, Department of Mathematics (B.Tech)*
-* **Applied Mathematics and Statistics (DE)** | Jul 2025 – Aug 2025  
-  *Full-time Teaching Assistant, Department of Mathematics*
-
-Recent Experience
-======
-* **Financial Engineering (Executive M.Tech)** | Jan 2025 – May 2025  
-  *Full-time Teaching Assistant, Department of Mathematics*
-* **Linear Algebra and Differential Equations** | Jan 2025 – May 2025  
-  *Full-time Teaching Assistant, Department of Mathematics (B.Tech)*
-* **Probability, Statistics & Stochastic Process** | Aug 2024 – Dec 2024  
-  *Full-time Teaching Assistant, Department of Mathematics (B.Tech)*
-* **Financial Analytics (PG Diploma in Data Science)** | Oct 2024 – Dec 2024  
-  *Full-time Teaching Assistant, Department of Mathematics*
-
-Past Experience
-======
-* **Financial Analytics (PG Diploma)** | May 2024 – Jul 2024  
-  *Full-time Teaching Assistant, Department of Mathematics*
-* **Financial Engineering** | Jan 2024 – May 2024  
-  *Full-time Teaching Assistant, Department of Mathematics (B.Tech & M.Tech)*
-* **Probability, Statistics and Stochastic Processes** | Jul 2023 – Dec 2023  
-  *Full-time Teaching Assistant, Department of Mathematics (B.Tech)*
-* **Linear Algebra and Differential Equations** | Jan 2023 – Jul 2023  
-  *Full-time Teaching Assistant, Department of Mathematics (B.Tech)*
+<div class="py-ta-stats">
+<div><span class="py-ta-num">11</span><span class="py-ta-cap">Course offerings</span></div>
+<div><span class="py-ta-num">2023–25</span><span class="py-ta-cap">Teaching period</span></div>
+<div><span class="py-ta-num">4</span><span class="py-ta-cap">Programmes: B.Tech, M.Tech, Executive, PG Diploma</span></div>
+</div>
+<div class="py-ta">
+<div class="py-ta-year">2025</div>
+<div class="py-ta-item">
+<span class="py-ta-date">Aug 2025 – Nov 2025</span>
+<span class="py-ta-course">Statistical Techniques</span>
+<span class="py-ta-role">Full-time Teaching Assistant, Department of Mathematics</span>
+</div>
+<div class="py-ta-item">
+<span class="py-ta-date">Aug 2025 – Nov 2025</span>
+<span class="py-ta-course">MAL2010: Probability Statistics and Stochastic Process (PSSP)</span>
+<span class="py-ta-role">Full-time Teaching Assistant, Department of Mathematics <span class="py-ta-tag">B.Tech</span></span>
+</div>
+<div class="py-ta-item">
+<span class="py-ta-date">Jul 2025 – Aug 2025</span>
+<span class="py-ta-course">Applied Mathematics and Statistics (DE)</span>
+<span class="py-ta-role">Full-time Teaching Assistant, Department of Mathematics</span>
+</div>
+<div class="py-ta-item">
+<span class="py-ta-date">Jan 2025 – May 2025</span>
+<span class="py-ta-course">Financial Engineering</span>
+<span class="py-ta-role">Full-time Teaching Assistant, Department of Mathematics <span class="py-ta-tag">Executive M.Tech</span></span>
+</div>
+<div class="py-ta-item">
+<span class="py-ta-date">Jan 2025 – May 2025</span>
+<span class="py-ta-course">Linear Algebra and Differential Equations</span>
+<span class="py-ta-role">Full-time Teaching Assistant, Department of Mathematics <span class="py-ta-tag">B.Tech</span></span>
+</div>
+<div class="py-ta-year">2024</div>
+<div class="py-ta-item">
+<span class="py-ta-date">Oct 2024 – Dec 2024</span>
+<span class="py-ta-course">Financial Analytics</span>
+<span class="py-ta-role">Full-time Teaching Assistant, Department of Mathematics <span class="py-ta-tag">PG Diploma in Data Science</span></span>
+</div>
+<div class="py-ta-item">
+<span class="py-ta-date">Aug 2024 – Dec 2024</span>
+<span class="py-ta-course">Probability, Statistics &amp; Stochastic Process</span>
+<span class="py-ta-role">Full-time Teaching Assistant, Department of Mathematics <span class="py-ta-tag">B.Tech</span></span>
+</div>
+<div class="py-ta-item">
+<span class="py-ta-date">May 2024 – Jul 2024</span>
+<span class="py-ta-course">Financial Analytics</span>
+<span class="py-ta-role">Full-time Teaching Assistant, Department of Mathematics <span class="py-ta-tag">PG Diploma</span></span>
+</div>
+<div class="py-ta-item">
+<span class="py-ta-date">Jan 2024 – May 2024</span>
+<span class="py-ta-course">Financial Engineering</span>
+<span class="py-ta-role">Full-time Teaching Assistant, Department of Mathematics <span class="py-ta-tag">B.Tech &amp; M.Tech</span></span>
+</div>
+<div class="py-ta-year">2023</div>
+<div class="py-ta-item">
+<span class="py-ta-date">Jul 2023 – Dec 2023</span>
+<span class="py-ta-course">Probability, Statistics and Stochastic Processes</span>
+<span class="py-ta-role">Full-time Teaching Assistant, Department of Mathematics <span class="py-ta-tag">B.Tech</span></span>
+</div>
+<div class="py-ta-item">
+<span class="py-ta-date">Jan 2023 – Jul 2023</span>
+<span class="py-ta-course">Linear Algebra and Differential Equations</span>
+<span class="py-ta-role">Full-time Teaching Assistant, Department of Mathematics <span class="py-ta-tag">B.Tech</span></span>
+</div>
+</div>
