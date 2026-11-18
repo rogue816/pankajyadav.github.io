@@ -117,75 +117,48 @@ As uncertainty in the world increases—the inevitable Law of Thermodynamics—l
 [Google Scholar](https://google.co.in) | [LinkedIn](https://linkedin.com) | [GitHub](https://github.com) | [ORCID](https://orcid.org)
 
 ---
-
-<h3 class="section-heading-underline">News &amp; Major Events</h3>
-
-<div class="news-blocks-list">
-
-  <div class="news-solid-block">
-    <div class="news-date-carved">2026</div>
-    <div class="news-detail-text">
-      Our paper, <em>"Are Kolmogorov–Arnold Networks (KANs) suitable for imbalanced data classification?"</em> has been accepted by <strong>IEEE Transactions on Emerging Topics in Computational Intelligence</strong>.
-    </div>
-  </div>
-
-  <div class="news-solid-block">
-    <div class="news-date-carved">2026</div>
-    <div class="news-detail-text">
-      Our article, <em>"Hedging rainfall volatility in Indian agriculture: A quantile-gamma approach to weather derivatives"</em> has been published in <a href="https://doi.org" target="_blank">Journal of Climate Finance (Vol. 14)</a>.
-    </div>
-  </div>
-
-  <div class="news-solid-block">
-    <div class="news-date-carved">2026</div>
-    <div class="news-detail-text">
-      Submitted new manuscripts on <strong>population-calibrated sarcopenia risk learning</strong>, clinically constrained decision frameworks (<strong>SAvRAC</strong>), and <strong>interpretable trading decision support</strong>.
-    </div>
-  </div>
-
-  <div class="news-solid-block">
-    <div class="news-date-carved">2025</div>
-    <div class="news-detail-text">
-      Released preprints on <strong>CISO</strong> (<em>Certified Interpolation Safe Oversampling</em>) on <a href="https://arxiv.org" target="_blank">arXiv:2501.15790</a> and a taxonomy of <strong>GANs for imbalanced data mining</strong> on <a href="https://arxiv.org" target="_blank">arXiv:2502.16535</a>.
-    </div>
-  </div>
-
-  <div class="news-solid-block">
-    <div class="news-date-carved">2025</div>
-    <div class="news-detail-text">
-      Presented our paper <em>"Solar PV power generation forecasting using synergy of artificial intelligence and metaheuristics based approaches"</em> at <a href="https://doi.org" target="_blank">IACC 2025 (Springer)</a>.
-    </div>
-  </div>
-
-  <div class="news-solid-block">
-    <div class="news-date-carved">SEP 2024</div>
-    <div class="news-detail-text">
-      Appointed <strong>General Secretary, Hostel B3</strong> and <strong>Head, Institute Dining Committee</strong> at <strong>IIT Jodhpur</strong> (2024–2025).
-    </div>
-  </div>
-
-  <div class="news-solid-block">
-    <div class="news-date-carved">2023</div>
-    <div class="news-detail-text">
-      Published elderly muscle power prediction research at <a href="https://doi.org" target="_blank">IEEE MIPR 2023</a> and fall-risk oversampling studies in <a href="https://doi.org" target="_blank">Springer CCIS</a>.
-    </div>
-  </div>
-
-  <div class="news-solid-block">
-    <div class="news-date-carved">2022</div>
-    <div class="news-detail-text">
-      Awarded the <strong>Best Student Paper Award</strong> at <a href="https://doi.org" target="_blank">ICT4AWE 2022</a> for <em>"Evaluation of risk factors for fall in elderly people from imbalanced data using SMOTE"</em>.
-    </div>
-  </div>
-
-  <div class="news-solid-block">
-    <div class="news-date-carved">JAN 2022</div>
-    <div class="news-detail-text">
-      Commenced <strong>Ph.D. in Mathematics</strong> at <strong>IIT Jodhpur</strong> under the supervision of <strong>Dr. V. V. M. S. Chandramouli</strong>.
-    </div>
-  </div>
-
+### News & Major Events
+<div class="news-container">
+  <table class="news-table">
+    <tr>
+      <td class="news-date">2026</td>
+      <td>Our paper, <em>"Are Kolmogorov–Arnold Networks (KANs) suitable for imbalanced data classification?"</em> has been accepted by <strong>IEEE Transactions on Emerging Topics in Computational Intelligence</strong>.</td>
+    </tr>
+    <tr>
+      <td class="news-date">2026</td>
+      <td>Our article, <em>"Hedging rainfall volatility in Indian agriculture: A quantile-gamma approach to weather derivatives"</em> has been published in <strong>Journal of Climate Finance</strong> (Vol. 14).</td>
+    </tr>
+    <tr>
+      <td class="news-date">2026</td>
+      <td>Submitted new manuscripts on population-calibrated sarcopenia risk learning, clinically constrained decision frameworks (<strong>SAvRAC</strong>), and interpretable trading decision support.</td>
+    </tr>
+    <tr>
+      <td class="news-date">2025</td>
+      <td>Released preprints on <strong>CISO</strong> (<em>Certified Interpolation Safe Oversampling</em>, <a href="https://arxiv.org" target="_blank">arXiv:2501.15790</a>) and a taxonomy of <strong>GANs for imbalanced data mining</strong> (<a href="https://arxiv.org" target="_blank">arXiv:2502.16535</a>).</td>
+    </tr>
+    <tr>
+      <td class="news-date">2025</td>
+      <td>Presented <em>"Solar PV power generation forecasting using synergy of artificial intelligence and metaheuristics based approaches"</em> at <strong>IACC 2025</strong> (Springer).</td>
+    </tr>
+    <tr>
+      <td class="news-date">Sep 2024</td>
+      <td>Appointed <strong>General Secretary, Hostel B3</strong> and <strong>Head, Institute Dining Committee</strong> at IIT Jodhpur (2024–2025).</td>
+    </tr>
+    <tr>
+      <td class="news-date">2023</td>
+      <td>Published elderly muscle power prediction research at <strong>IEEE MIPR 2023</strong> and fall-risk oversampling studies in <strong>Springer CCIS</strong>.</td>
+    </tr>
+    <tr>
+      <td class="news-date">2022</td>
+      <td>Awarded the <strong>Best Student Paper Award</strong> at <strong>ICT4AWE 2022</strong> for <em>"Evaluation of risk factors for fall in elderly people from imbalanced data using SMOTE"</em>.</td>
+    </tr>
+    <tr>
+      <td class="news-date">Jan 2022</td>
+      <td>Commenced Ph.D. in Mathematics at IIT Jodhpur under the supervision of Dr. V. V. M. S. Chandramouli.</td>
+    </tr>
+  </table>
 </div>
+
 <!-- Live Flat Map Analytics Widget Section -->
 <h3 style="text-align: center; margin-top: 50px;">Global Visitor Reach</h3>
 <div style="display: flex; justify-content: center; margin-top: 20px; margin-bottom: 40px;">
