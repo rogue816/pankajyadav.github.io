@@ -335,9 +335,9 @@ author_profile: false
 <div class="py-connect">
 <h2>Connect with Me</h2>
 <div class="py-links">
-<a href="https://google.co.in" target="_blank" rel="noopener">Google Scholar</a>
-<a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
-<a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+<a href="https://scholar.google.co.in/citations?hl=en" target="_blank" rel="noopener">Google Scholar</a>
+<a href="https://www.linkedin.com/in/pankaj-yadav-867a40200?utm_source=share_via&utm_content=profile&utm_medium=member_ios"_blank" rel="noopener">LinkedIn</a>
+<a href="https://github.com/rogue816" target="_blank" rel="noopener">GitHub</a>
 <a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a>
 </div>
 </div>
